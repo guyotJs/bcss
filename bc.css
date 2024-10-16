@@ -33,8 +33,8 @@ h1,h2,h3{
 /* BG START */
 .bg-calm,.hover-bg-calm:hover{background-color:#43AA8B;color:white;}
 .bg-alert,.hover-bg-alert:hover{background-color: #DB504A;color:white;}
-.bg-info,.hover-bg-info:hover{background-color: #FF6F59;}
-.bg-null,.hover-bg-null:hover{background-color: #B2B09B;}
+.bg-info,.hover-bg-info:hover{background-color: #FF6F59;color:black;}
+.bg-null,.hover-bg-null:hover{background-color: #B2B09B;color:black;}
 .bg-slate,.hover-bg-slate:hover{background-color: #254441;color:white;}
 .bg-calm-fade{background-image:linear-gradient(to bottom,#43AA8B,rgba(0,0,0,0));}
 .bg-alert-fade{background-image:linear-gradient(to bottom,#DB504A,rgba(0,0,0,0));}
