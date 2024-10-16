@@ -15,29 +15,7 @@ Works well with
 1. Regular CSS
 2. w3css
 
-Code example
-
-1. Landing Page
-
-```html
-<div class="contain bg-null slate p-xl">
-   <h1 class="f-xl">Hello World!</h1>
-   <p class="italic serif gray">"A Developers Lifestory"</p>
-</div>
-<div class="contain serif bg-null p-l text-center">
-  More about me
-</div>
-<div class="bg-slate p-l text-center">
-  What Have I made
-</div>
-<div class="bg-null p-l text-center">
-  Where To Find Me
-</div>
-<div class="bg-slate p-l text-center">Projects</div>
-<div class="bg-null p-l text-center">My Links</div>
-```
-
-2. User Card
+Code example: User Card
 
 ```html
 <div class="shadow m">
@@ -51,6 +29,27 @@ Code example
     <li>Python*, C*</li>
   </ol><br/><br/><br/><br/>
   <p class="p italic serif bg-slate">
+     apr. 22 2024
+  </p>
+</div>
+```
+
+The Comparable w3css code
+
+```html
+<div class="w3-margin w3-card-4">
+  <h1 class="w3-teal w3-padding">
+    John Doe
+  </h1>
+  <p class="w3-padding">
+    A Frontend Web Dev:
+  </p>
+  <ol class="w3-margin-left">
+    <li class="w3-margin-left">HTML, CSS, JS</li>
+    <li class="w3-margin-left">Svelte, Angular</li>
+    <li class="w3-margin-left">Python*, C*</li>
+  </ol><br/>
+  <p class="w3-padding w3-teal">
      apr. 22 2024
   </p>
 </div>
