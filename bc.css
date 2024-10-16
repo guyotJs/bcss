@@ -78,12 +78,17 @@ h1,h2,h3{
   width:100%;
 }
 /* IMAGE END */
+/* BORDER START */
+.border,.hover-border:hover{border:1px solid black;}
+.border-gray,.hover-border-gray:hovery{border:1px solid gray;}
+.border-white,.hover-border-white:hover{border:1px solid white;}
+.no-border,.hover-no-border:hover{border:none;}
+/* BORDER END */
 
 /* UTILITY CLASSES, italic underline etc */
 .italic{font-style:italic;}
 .underline{text-decoration:underline;}
 .no-underline{text-decoration:none;}
-.border{border:1px solid black;}
 .sans{font-family:"Open Sans";}
 .serif{font-family:"Merriweather";}
 .true-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
