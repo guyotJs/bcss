@@ -1,0 +1,97 @@
+/*
+   (    (    
+ ( )\   )\   
+ )((_)(((_)  
+((_)_ )\___  
+ | _ |(/ __| 
+ | _ \| (__  
+ |___/ \___|.css 2024 The Guyot Project
+ Additive css library for use along with 
+ regular css or with alognside w3css.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-family: "Open Sans";  
+  transition:0.3s;
+}
+h1,h2,h3{
+  font-family:"Merriweather";
+}
+.contain{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.sub{
+  color:gray;
+  font-style:italic;
+}
+/* BG START */
+.bg-calm{background-color:#43AA8B;color:white;}
+.bg-alert{background-color: #DB504A;color:white;}
+.bg-info{background-color: #FF6F59;}
+.bg-null{background-color: #B2B09B;}
+.bg-slate{background-color: #254441;color:white;}
+.bg-calm-fade{background-image:linear-gradient(to bottom,#43AA8B,rgba(0,0,0,0));}
+.bg-alert-fade{background-image:linear-gradient(to bottom,#DB504A,rgba(0,0,0,0));}
+.bg-info-fade{background-image:linear-gradient(to bottom,#FF6F59,rgba(0,0,0,0));}
+.bg-null-fade{background-image:linear-gradient(to bottom,#B2B09B,rgba(0,0,0,0));}
+.bg-slate-fade{background-image:linear-gradient(to bottom,#254441,rgba(0,0,0,0));}
+/* BG END */
+/* COLOR START */
+.white{color:white;}
+.black{color:black;}
+.gray{color:gray;}
+.calm{color:#43AA8B;}
+.alert{color: #DB504A;}
+.info{color: #FF6F59;}
+.null{color: #B2B09B;}
+.slate{color: #254441;}
+/* COLOR END */
+/* Padding & Margin & Font & Radius START */
+.p{padding:6px;}
+.p-m{padding:16px;}
+.p-l{padding:32px;}
+.p-xl{padding:50px;}
+.m{margin:6px;}
+.m-m{margin:16px;}
+.m-l{margin:32px;}
+.f{font-size:16px;}
+.f-m{font-size:20px;}
+.f-l{font-size:25px;}
+.f-xl{font-size:40px;}
+.r{border-radius:5px;}
+.r-m{border-radius:10px;}
+.r-l{border-radius:20px;}
+/* P & M & F & R END */
+/* GRID START */
+.grid-2{display: grid;grid-template-columns: auto auto;}
+.grid-3{display: grid;grid-template-columns: auto auto auto;}
+.grid-4{display: grid;grid-template-columns: auto auto auto auto;}
+/* GRID END */
+/* IMAGE START */
+.image-fit{
+  width:100%;
+}
+/* IMAGE END */
+
+/* UTILITY CLASSES, italic underline etc */
+.italic{font-style:italic;}
+.underline{text-decoration:underline;}
+.no-underline{text-decoration:none;}
+.border{border:1px solid black;}
+.sans{font-family:"Open Sans";}
+.serif{font-family:"Merriweather";}
+.true-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+.left-center{position:absolute;left:50%;transform:translate(-50%);}
+.full-width{position:absolute;width:100%;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.text-center{text-align:center;}
+.shadow{box-shadow:0px 0px 10px black;}
+.no-select{user-select:none;}
+.point{cursor:pointer;}
