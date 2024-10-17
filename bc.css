@@ -95,6 +95,7 @@ h1,h2,h3{
 /* UTILITY CLASSES, italic underline etc */
 .italic{font-style:italic;}
 .underline{text-decoration:underline;}
+.bold{font-weight:bold;}
 .no-underline{text-decoration:none;}
 .sans{font-family:"Open Sans";}
 .serif{font-family:"Merriweather";}
