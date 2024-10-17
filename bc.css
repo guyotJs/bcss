@@ -55,20 +55,20 @@ h1,h2,h3{
 .slate{color: #254441;}
 /* COLOR END */
 /* Padding & Margin & Font & Radius START */
-.p{padding:6px;}
-.p-m{padding:16px;}
-.p-l{padding:32px;}
-.p-xl{padding:50px;}
-.m{margin:6px;}
-.m-m{margin:16px;}
-.m-l{margin:32px;}
-.f{font-size:16px;}
-.f-m{font-size:20px;}
-.f-l{font-size:25px;}
-.f-xl{font-size:40px;}
-.r{border-radius:5px;}
-.r-m{border-radius:10px;}
-.r-l{border-radius:20px;}
+.p,.hover-p:hover{padding:6px;}
+.p-m,.hover-p-m:hover{padding:16px;}
+.p-l,.hover-p-l:hover{padding:32px;}
+.p-xl,.hover-p-xl:hover{padding:50px;}
+.m,.hover-m:hover{margin:6px;}
+.m-m,.hover-m-m:hover{margin:16px;}
+.m-l,.hover-m-l:hover{margin:32px;}
+.f,.hover-f:hover{font-size:16px;}
+.f-m,.hover-f-m:hover{font-size:20px;}
+.f-l,.hover-f-l:hover{font-size:25px;}
+.f-xl,.hover-f-xl:hover{font-size:40px;}
+.r,.hover-r:hover{border-radius:5px;}
+.r-m,.hover-r-m:hover{border-radius:10px;}
+.r-l,.hover-r-l:hover{border-radius:20px;}
 /* P & M & F & R END */
 /* GRID START */
 .grid-2{display: grid;grid-template-columns: auto auto;}
