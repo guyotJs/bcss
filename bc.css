@@ -70,8 +70,11 @@ h1,h2,h3{
 /* P & M & F & R END */
 /* GRID START */
 .grid-2{display: grid;grid-template-columns: auto auto;}
+.grid-2-fixed{display:grid;grid-template-columns:50% 50%;}
 .grid-3{display: grid;grid-template-columns: auto auto auto;}
+.grid-3-fixed{display:grid;grid-template-columns:33.3% 33.3% 33.3%;}
 .grid-4{display: grid;grid-template-columns: auto auto auto auto;}
+.grid-4-fixed{display: grid;grid-template-columns: 25% 25% 25% 25%;}
 /* GRID END */
 /* IMAGE START */
 .image-fit{
@@ -100,3 +103,4 @@ h1,h2,h3{
 .shadow{box-shadow:0px 0px 10px black;}
 .no-select{user-select:none;}
 .point{cursor:pointer;}
+.relative{position:relative;}
