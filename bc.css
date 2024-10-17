@@ -31,6 +31,8 @@ h1,h2,h3{
   font-style:italic;
 }
 /* BG START */
+.bg-white,.hover-bg-white:hover{background-color:white;color:black;}
+.bg-black,.hover-bg-black:hover{background-color:black;color:white;}
 .bg-calm,.hover-bg-calm:hover{background-color:#43AA8B;color:white;}
 .bg-alert,.hover-bg-alert:hover{background-color: #DB504A;color:white;}
 .bg-info,.hover-bg-info:hover{background-color: #FF6F59;color:black;}
