@@ -38,11 +38,11 @@ h1,h2,h3{
 .bg-info,.hover-bg-info:hover{background-color: #FF6F59;color:black;}
 .bg-null,.hover-bg-null:hover{background-color: #B2B09B;color:black;}
 .bg-slate,.hover-bg-slate:hover{background-color: #254441;color:white;}
-.bg-calm-fade{background-image:linear-gradient(to bottom,#43AA8B,rgba(0,0,0,0));}
-.bg-alert-fade{background-image:linear-gradient(to bottom,#DB504A,rgba(0,0,0,0));}
-.bg-info-fade{background-image:linear-gradient(to bottom,#FF6F59,rgba(0,0,0,0));}
-.bg-null-fade{background-image:linear-gradient(to bottom,#B2B09B,rgba(0,0,0,0));}
-.bg-slate-fade{background-image:linear-gradient(to bottom,#254441,rgba(0,0,0,0));}
+.bg-calm-fade,.hover-bg-calm-fade:hover{background-image:linear-gradient(to bottom,#43AA8B,rgba(0,0,0,0));}
+.bg-alert-fade,.hover-bg-alert-fade:hover{background-image:linear-gradient(to bottom,#DB504A,rgba(0,0,0,0));}
+.bg-info-fade,.hover-bg-info-fade:hover{background-image:linear-gradient(to bottom,#FF6F59,rgba(0,0,0,0));}
+.bg-null-fade,.hover-bg-null-fade:hover{background-image:linear-gradient(to bottom,#B2B09B,rgba(0,0,0,0));}
+.bg-slate-fade,.hover-bg-slate-fade:hover{background-image:linear-gradient(to bottom,#254441,rgba(0,0,0,0));}
 /* BG END */
 /* COLOR START */
 .white{color:white;}
