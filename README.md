@@ -54,3 +54,20 @@ The Comparable w3css code
   </p>
 </div>
 ```
+
+A full width background with 2 grid
+
+```html
+
+
+<div class="main bg-slate hover-bg-black">
+  <div class="relative top-center grid-2 f-xl bold italic">
+    <div class="text-center hover-bg-white">
+      Hello
+    </div>
+    <div class="text-center hover-bg-white">
+      World!
+    </div>
+  </div>
+</div>
+```
