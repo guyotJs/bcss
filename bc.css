@@ -115,4 +115,5 @@ h1,h2,h3{
 .relative{position:relative;}
 .absolute{position:absolute;}
 .fixed{position:fixed;}
+.hover-bold:hover{font-weight:bold;}
 
