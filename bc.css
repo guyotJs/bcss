@@ -108,6 +108,7 @@ h1,h2,h3{
 .true-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
 .left-center{position:absolute;left:50%;transform:translate(-50%);}
 .top-center{top:50%;transform:translate(0,-50%);}
+.post-page{position:absolute;top:100%;}
 .full-width{position:absolute;width:100%;}
 .text-left{text-align:left;}
 .text-right{text-align:right;}
