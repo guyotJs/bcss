@@ -46,6 +46,14 @@ h1,h2,h3{
 .bg-null-fade,.hover-bg-null-fade:hover{background-image:linear-gradient(to bottom,#B2B09B,rgba(0,0,0,0));}
 .bg-slate-fade,.hover-bg-slate-fade:hover{background-image:linear-gradient(to bottom,#254441,rgba(0,0,0,0));}
 .bg-silence-fade,.hover-bg-silence-fade:hover{background-image:linear-gradient(to bottom,#a688fa,rgba(0,0,0,0));}
+.active-bg-white:active{background-color:white!important;}
+.active-bg-black:active{background-color:black!important;}
+.active-bg-calm:active{background-color:#43AA8B!important;}
+.active-bg-alert:active{background-color:#DB504A!important;}
+.active-bg-info:active{background-color:#FF6F59!important;}
+.active-bg-null:active{background-color:#B2B09B!important;}
+.active-bg-slate:active{background-color:#254441!important;}
+.active-bg-silence:active{background-color:#a688fa!important;}
 /* BG END */
 /* COLOR START */
 .white{color:white;}
