@@ -95,7 +95,14 @@ h1,h2,h3{
 .border-white,.hover-border-white:hover{border:1px solid white;}
 .no-border,.hover-no-border:hover{border:none;}
 /* BORDER END */
-
+/* WIDTH */
+.w-half{width:50%;}
+.w-third{width:33.3%}
+.w-quart{width:25%;}
+.w-major{width:75%}
+/* WIDTH END */
+.bg-clip-text{background-clip:text;}
+.no-color{color:rgba(0,0,0,0);}
 /* UTILITY CLASSES, italic underline etc */
 .italic{font-style:italic;}
 .underline{text-decoration:underline;}
