@@ -75,6 +75,10 @@ h1,h2,h3{
 .m-m,.hover-m-m:hover{margin:16px;}
 .m-l,.hover-m-l:hover{margin:32px;}
 .m-xl,.hover-m-xl:hover{margin:50px;}
+.ml,.hover-ml:hover{margin-left:6px;}
+.ml-m,.hover-ml-m:hover{margin-left:16px;}
+.ml-l,.hover-ml-l:hover{margin-left:32px;}
+.ml-xl,.hover-ml-xl:hover{margin-left:50px;}
 .f,.hover-f:hover{font-size:16px;}
 .f-m,.hover-f-m:hover{font-size:20px;}
 .f-l,.hover-f-l:hover{font-size:25px;}
